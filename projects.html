@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemechis Tesfa | Frontend Dev</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .home-projects {
+            background-color: rgb(166, 194, 252); 
+           }
+        .home-projects h1 {
+            color: rgb(24, 11, 114);
+        }
+        .home-projects h1:hover{
+                border-bottom: 5px solid rgb(24, 11, 114);
+        }
+        .project-item{
+            padding: 10px;
+            background-color: rgb(24, 11, 114);
+        }
+    </style>
+</head>
+<body>
+     <header >
+        <nav >
+            <p>Geme</p>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="skills.html">Skill</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+          <section class="home-projects">
+            <h1>My Projects</h1>
+            <div class="projects-list">
+                <a href="https://ecommerce-shopping-cart-tau.vercel.app/" target="_blank">
+                    <div class="project-item">
+                        <img src="./images/Screenshot 2025-05-23 235741.png" alt="project 1 image">
+                        <p>A responsive e-commerce website built with HTML, CSS, and JavaScript, featuring a dynamic shopping cart functionality</p>
+                    </div>
+                </a>
+                <a href="home.html">
+                    <div class="project-item">
+                        <img src="./images/Screenshot 2025-05-24 000945.png" alt="project 2 image">
+                        <p>A portfolio website showcasing my skills and projects, designed with modern UI/UX principles</p>
+                    </div>
+                </a>
+                <a href="https://sina-fashion-design.vercel.app/" target="_blank">
+                    <div class="project-item">
+                        <img src="./images/Screenshot 2025-05-24 001627.png" alt="project 3 image">
+                        <p>A fashion design website showcasing modern clothing collections, built with responsive design principles and interactive galleries</p>
+                    </div>
+                </a>
+                <a href="https://todo-app-tau-sandy.vercel.app/" target="_blank">
+                    <div class="project-item">
+                        <img src="./images/Screenshot 2025-05-24 001307.png" alt="project 3 image">
+                        <p>A to-do app that allows users to manage tasks efficiently, featuring add, edit and delete tasks built with html, css and javascript</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    <footer>
+        <p>&copy; <span id="year">current year</span> Gemechis Tesfa. All rights reserved.</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemechis Tesfa | Frontend Dev</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Geme</p>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="skills.html">Skill</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <section class="home-contact">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+            <div class="contact-section">    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input placeholder="Enter your name" type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input placeholder="example@gmail.com" type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea placeholder="write your message...." id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+
+                     <div class="contact-info">
+                        <p><span>Email:</span>
+                            <a href="mailto:tgemi130@gmail.com">tgemi130@gmail.com</a>
+                        </p>
+                        <p><span>Phone:</span> 
+                            <a href="tel:+251900385741">+251 900 385 741</a>
+                        </p>
+                        <p><span>Location:</span> 
+                            <a href="https://goo.gl/maps/4v8x5G7Z1Q2J6Y3A8">Addis Ababa, Ethiopia</a>
+                        </p>
+                    </div>
+
+            </div>
+        </section>
+
+        
+    <footer>
+        <p>&copy; <span id="year">current year</span> Gemechis Tesfa. All rights reserved.</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
