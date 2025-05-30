@@ -479,6 +479,9 @@ form button{
     font-weight: 600;
     cursor: pointer;
 }
+form button:hover{
+    background-color: rgba(86, 64, 225, 0.6);
+}
 .contact-info{
     display: flex;
     flex-direction: column;
